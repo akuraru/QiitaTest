@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73670BDB3A764458B9A76D86 /* libPods-QiitaTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE99E40BD6D46AB873A5FD2 /* libPods-QiitaTestTests.a */; };
+		8B08E71EEB5249AE86C2F81F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4194554D7C42DDABB891E1 /* libPods.a */; };
+		BE33A9AF185EBD3A0002738A /* DateIgnoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */; };
+		BE76B95218498442001E749D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE76B94E1849816E001E749D /* test.m */; };
+		BE76B95318498473001E749D /* NSDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */; };
+		BE76B95518498524001E749D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE76B95418498524001E749D /* Default-568h@2x.png */; };
 		BEC4BFA7183F45B4004555B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFA6183F45B4004555B2 /* Foundation.framework */; };
 		BEC4BFA9183F45B4004555B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFA8183F45B4004555B2 /* CoreGraphics.framework */; };
 		BEC4BFAB183F45B4004555B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFAA183F45B4004555B2 /* UIKit.framework */; };
@@ -16,11 +22,10 @@
 		BEC4BFBA183F45B4004555B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC4BFB8183F45B4004555B2 /* Main.storyboard */; };
 		BEC4BFBD183F45B4004555B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFBC183F45B4004555B2 /* ViewController.m */; };
 		BEC4BFBF183F45B4004555B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC4BFBE183F45B4004555B2 /* Images.xcassets */; };
-		BEC4BFC6183F45B4004555B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFC5183F45B4004555B2 /* XCTest.framework */; };
 		BEC4BFC7183F45B4004555B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFA6183F45B4004555B2 /* Foundation.framework */; };
-		BEC4BFC8183F45B4004555B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFAA183F45B4004555B2 /* UIKit.framework */; };
 		BEC4BFD0183F45B4004555B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC4BFCE183F45B4004555B2 /* InfoPlist.strings */; };
 		BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */; };
+		BEC4BFDB183F4D18004555B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFAA183F45B4004555B2 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2192177DBD4D5985543049 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6A90E20C519742278A0CA645 /* Pods-QiitaTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaTestTests.xcconfig"; path = "Pods/Pods-QiitaTestTests.xcconfig"; sourceTree = "<group>"; };
+		AAE99E40BD6D46AB873A5FD2 /* libPods-QiitaTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiitaTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4194554D7C42DDABB891E1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateIgnoreTest.m; sourceTree = "<group>"; };
+		BE76B94E1849816E001E749D /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		BE76B95418498524001E749D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BEC4BFA3183F45B4004555B2 /* QiitaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC4BFA6183F45B4004555B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BEC4BFA8183F45B4004555B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,8 @@
 		BEC4BFCD183F45B4004555B2 /* QiitaTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QiitaTestTests-Info.plist"; sourceTree = "<group>"; };
 		BEC4BFCF183F45B4004555B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiitaTestTests.m; sourceTree = "<group>"; };
+		BEC4BFDC183F4D1D004555B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,7 @@
 				BEC4BFA9183F45B4004555B2 /* CoreGraphics.framework in Frameworks */,
 				BEC4BFAB183F45B4004555B2 /* UIKit.framework in Frameworks */,
 				BEC4BFA7183F45B4004555B2 /* Foundation.framework in Frameworks */,
+				8B08E71EEB5249AE86C2F81F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC4BFC6183F45B4004555B2 /* XCTest.framework in Frameworks */,
-				BEC4BFC8183F45B4004555B2 /* UIKit.framework in Frameworks */,
+				BEC4BFDB183F4D18004555B2 /* UIKit.framework in Frameworks */,
 				BEC4BFC7183F45B4004555B2 /* Foundation.framework in Frameworks */,
+				73670BDB3A764458B9A76D86 /* libPods-QiitaTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +97,13 @@
 		BEC4BF9A183F45B4004555B2 = {
 			isa = PBXGroup;
 			children = (
+				BE76B95418498524001E749D /* Default-568h@2x.png */,
 				BEC4BFAC183F45B4004555B2 /* QiitaTest */,
 				BEC4BFCB183F45B4004555B2 /* QiitaTestTests */,
 				BEC4BFA5183F45B4004555B2 /* Frameworks */,
 				BEC4BFA4183F45B4004555B2 /* Products */,
+				0F2192177DBD4D5985543049 /* Pods.xcconfig */,
+				6A90E20C519742278A0CA645 /* Pods-QiitaTestTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +119,13 @@
 		BEC4BFA5183F45B4004555B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEC4BFDC183F4D1D004555B2 /* SenTestingKit.framework */,
 				BEC4BFA6183F45B4004555B2 /* Foundation.framework */,
 				BEC4BFA8183F45B4004555B2 /* CoreGraphics.framework */,
 				BEC4BFAA183F45B4004555B2 /* UIKit.framework */,
 				BEC4BFC5183F45B4004555B2 /* XCTest.framework */,
+				BC4194554D7C42DDABB891E1 /* libPods.a */,
+				AAE99E40BD6D46AB873A5FD2 /* libPods-QiitaTestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,7 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */,
+				BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */,
 				BEC4BFCC183F45B4004555B2 /* Supporting Files */,
+				BE76B94E1849816E001E749D /* test.m */,
+				BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */,
 			);
 			path = QiitaTestTests;
 			sourceTree = "<group>";
@@ -159,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC4BFD5183F45B4004555B2 /* Build configuration list for PBXNativeTarget "QiitaTest" */;
 			buildPhases = (
+				1A089AB59CB644C991C6CF93 /* Check Pods Manifest.lock */,
 				BEC4BF9F183F45B4004555B2 /* Sources */,
 				BEC4BFA0183F45B4004555B2 /* Frameworks */,
 				BEC4BFA1183F45B4004555B2 /* Resources */,
+				7D7CD6A8D4924EC6AFB7601E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC4BFD8183F45B4004555B2 /* Build configuration list for PBXNativeTarget "QiitaTestTests" */;
 			buildPhases = (
+				920D2A78698D449295193384 /* Check Pods Manifest.lock */,
 				BEC4BFC0183F45B4004555B2 /* Sources */,
 				BEC4BFC1183F45B4004555B2 /* Frameworks */,
 				BEC4BFC2183F45B4004555B2 /* Resources */,
+				DEEFB42053FF4500A06CC600 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC4BFBF183F45B4004555B2 /* Images.xcassets in Resources */,
+				BE76B95518498524001E749D /* Default-568h@2x.png in Resources */,
 				BEC4BFB1183F45B4004555B2 /* InfoPlist.strings in Resources */,
 				BEC4BFBA183F45B4004555B2 /* Main.storyboard in Resources */,
 			);
@@ -243,6 +272,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A089AB59CB644C991C6CF93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7CD6A8D4924EC6AFB7601E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920D2A78698D449295193384 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEFB42053FF4500A06CC600 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-QiitaTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEC4BF9F183F45B4004555B2 /* Sources */ = {
@@ -260,6 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */,
+				BE33A9AF185EBD3A0002738A /* DateIgnoreTest.m in Sources */,
+				BE76B95218498442001E749D /* test.m in Sources */,
+				BE76B95318498473001E749D /* NSDateFormatterTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,32 +470,35 @@
 		};
 		BEC4BFD6183F45B4004555B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2192177DBD4D5985543049 /* Pods.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QiitaTest/QiitaTest-Prefix.pch";
 				INFOPLIST_FILE = "QiitaTest/QiitaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		BEC4BFD7183F45B4004555B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2192177DBD4D5985543049 /* Pods.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QiitaTest/QiitaTest-Prefix.pch";
 				INFOPLIST_FILE = "QiitaTest/QiitaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		BEC4BFD9183F45B4004555B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A90E20C519742278A0CA645 /* Pods-QiitaTestTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QiitaTest.app/QiitaTest";
@@ -418,12 +516,14 @@
 				INFOPLIST_FILE = "QiitaTestTests/QiitaTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		BEC4BFDA183F45B4004555B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A90E20C519742278A0CA645 /* Pods-QiitaTestTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QiitaTest.app/QiitaTest";
@@ -437,6 +537,7 @@
 				INFOPLIST_FILE = "QiitaTestTests/QiitaTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -460,6 +561,7 @@
 				BEC4BFD7183F45B4004555B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC4BFD8183F45B4004555B2 /* Build configuration list for PBXNativeTarget "QiitaTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +570,7 @@
 				BEC4BFDA183F45B4004555B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
