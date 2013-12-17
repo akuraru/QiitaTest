@@ -5,8 +5,8 @@
 SPEC_BEGIN(DateByAdding)
 describe(@"", ^{
     __block NSDate *baseDate;
-    __block NSCalendar*calendar;
-    NSCalendarUnit allUnit = (NSYearCalendarUnit| NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit);
+    __block NSCalendar *calendar;
+    NSCalendarUnit allUnit = (NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit);
     beforeAll(^{
         baseDate = [NSDate AZ_dateByUnit:@{
                 AZ_DateUnit.year : @2010,
@@ -36,8 +36,18 @@ describe(@"", ^{
 
             [[result should] equal:answer];
         });
+        it(@"use TimeInterval", ^{
+            NSDate *result = [baseDate dateByAddingTimeInterval:60 * 15];
+
+            [[result should] equal:answer];
+        });
+        it(@"use NSDate+Escort", ^{
+            NSDate *result = [baseDate dateByAddingMinutes:15];
+            
+            [[result should] equal:answer];
+        });
     });
-    context(@"Adding month 1",^{
+    context(@"Adding month 1", ^{
         __block NSDate *answer;
         beforeAll(^{
             answer = [NSDate AZ_dateByUnit:@{
@@ -55,8 +65,18 @@ describe(@"", ^{
 
             [[result should] equal:answer];
         });
+        it(@"use TimeInterval", ^{
+            NSDate *result = [baseDate dateByAddingTimeInterval:60 * 60 * 24 * 31];
+
+            [[result should] equal:answer];
+        });
+        it(@"use NSDate+Escort", ^{
+            NSDate *result = [baseDate dateByAddingMonths:1];
+            
+            [[result should] equal:answer];
+        });
     });
-    context(@"Adding year 10",^{
+    context(@"Adding year 10", ^{
         __block NSDate *answer;
         beforeAll(^{
             answer = [NSDate AZ_dateByUnit:@{
@@ -75,10 +95,14 @@ describe(@"", ^{
             [[result should] equal:answer];
         });
         it(@"use TimeInterval", ^{
+            NSDate *result = [baseDate dateByAddingTimeInterval:(60 * 60 * 24) * (365 * 10 + 3)];
+
+            [[result should] equal:answer];
         });
         it(@"use NSDate+Escort", ^{
-        });
-        it(@"use AZDateBuilder", ^{
+            NSDate *result = [baseDate dateByAddingYears:10];
+            
+            [[result should] equal:answer];
         });
     });
 });
