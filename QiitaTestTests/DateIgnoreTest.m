@@ -24,11 +24,13 @@ describe(@"", ^{
             AZ_DateUnit.year : @2010,
             AZ_DateUnit.month : @10,
             AZ_DateUnit.day : @10,
+            AZ_DateUnit.hour : @0,
+            AZ_DateUnit.minute : @0
         }];
         
         [[result should] equal:ignoreTime];
     });
-    it(@"2010", ^{
+    it(@"igonre day", ^{
         NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
         calendar.locale = [NSLocale currentLocale];
         NSDateComponents *dateComps = [calendar components:NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit fromDate:date];
