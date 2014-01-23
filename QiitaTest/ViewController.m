@@ -9,21 +9,31 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *checkView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CGPoint point = [self absPoint:_checkView];
+    NSLog(@"%@", [NSValue valueWithCGPoint:point]);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    CGPoint point = [self absPoint:_checkView];
+    NSLog(@"%@", [NSValue valueWithCGPoint:point]);
+}
+- (CGPoint)absPoint:(UIView *) view {
+    CGPoint ret = CGPointMake(view.frame.origin.x, view.frame.origin.y);
+    if ([view superview] != nil) {
+        CGPoint addPoint = [self absPoint:[view superview]];
+        ret = CGPointMake(ret.x + addPoint.x, ret.y + addPoint.y);
+    }
+    return ret;
 }
 
 @end

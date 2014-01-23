@@ -10,7 +10,7 @@
             <objects>
                 <tableViewController id="qKe-kL-ggu" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YPE-tX-y7Y">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -72,13 +72,13 @@
         <!--View Controller-->
         <scene sceneID="7IZ-5y-tjp">
             <objects>
-                <viewController id="dPf-DS-gFX" sceneMemberID="viewController">
+                <viewController id="dPf-DS-gFX" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r8f-2z-uKL"/>
                         <viewControllerLayoutGuide type="bottom" id="pS5-GB-VdP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d9m-UX-XY2">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYa-F5-6Bd">
@@ -132,11 +132,25 @@ fuga</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bbl-KF-HsK">
+                                <rect key="frame" x="0.0" y="300" width="320" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bbl-KF-HsK" firstAttribute="leading" secondItem="d9m-UX-XY2" secondAttribute="leading" id="9dH-oS-Dmv"/>
+                            <constraint firstItem="bbl-KF-HsK" firstAttribute="top" secondItem="r8f-2z-uKL" secondAttribute="bottom" constant="300" id="M4C-y9-7N6"/>
+                            <constraint firstAttribute="trailing" secondItem="bbl-KF-HsK" secondAttribute="trailing" id="Tf6-sB-Mnd"/>
+                            <constraint firstItem="pS5-GB-VdP" firstAttribute="top" secondItem="bbl-KF-HsK" secondAttribute="bottom" id="yhJ-nl-YsL"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="zZU-Xt-F9r"/>
+                    <connections>
+                        <outlet property="checkView" destination="bbl-KF-HsK" id="Orm-ax-r9q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRy-mU-KHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,7 +180,7 @@ fuga</string>
                         <viewControllerLayoutGuide type="bottom" id="mCe-xR-ycg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A9M-n0-kvA">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIG-ob-jFS">
@@ -198,7 +212,7 @@ fuga</string>
                         <viewControllerLayoutGuide type="bottom" id="RTJ-TJ-CiF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QHs-ip-Izx">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cm9-XA-eke">
@@ -227,7 +241,7 @@ fuga</string>
                         <viewControllerLayoutGuide type="bottom" id="Cfa-bD-G6A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bM1-RV-CNM">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8a-M3-w6x">
@@ -261,6 +275,6 @@ fuga</string>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
