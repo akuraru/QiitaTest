@@ -29,6 +29,7 @@
 		BEC4BFD0183F45B4004555B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC4BFCE183F45B4004555B2 /* InfoPlist.strings */; };
 		BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */; };
 		BEC4BFDB183F4D18004555B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFAA183F45B4004555B2 /* UIKit.framework */; };
+		BEE0E11118AF1E660082DFBE /* DateOfNextWeekdaySpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiitaTestTests.m; sourceTree = "<group>"; };
 		BEC4BFDC183F4D1D004555B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterTest.m; sourceTree = "<group>"; };
+		BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateOfNextWeekdaySpecs.m; sourceTree = "<group>"; };
 		C879098AF96A66CC497B891F /* DateByAdding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateByAdding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 				BE76B94E1849816E001E749D /* test.m */,
 				BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */,
 				C879098AF96A66CC497B891F /* DateByAdding.m */,
+				BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */,
 			);
 			path = QiitaTestTests;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */,
+				BEE0E11118AF1E660082DFBE /* DateOfNextWeekdaySpecs.m in Sources */,
 				BEA425E8185FC66B0071F2C9 /* DateByAdding.m in Sources */,
 				BE33A9AF185EBD3A0002738A /* DateIgnoreTest.m in Sources */,
 				BE76B95218498442001E749D /* test.m in Sources */,
