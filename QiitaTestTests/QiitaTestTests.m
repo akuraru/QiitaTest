@@ -12,6 +12,7 @@ describe(@"", ^{
         
         formatter = [[NSDateFormatter alloc] init];
         formatter.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+        formatter.locale = [NSLocale systemLocale];
         formatter.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
         formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
     });
