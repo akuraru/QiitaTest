@@ -10,7 +10,7 @@
 		73670BDB3A764458B9A76D86 /* libPods-QiitaTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE99E40BD6D46AB873A5FD2 /* libPods-QiitaTestTests.a */; };
 		8B08E71EEB5249AE86C2F81F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4194554D7C42DDABB891E1 /* libPods.a */; };
 		BE33A9AF185EBD3A0002738A /* DateIgnoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */; };
-		BE76B95218498442001E749D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE76B94E1849816E001E749D /* test.m */; };
+		BE3AB07818FD0DBC00D0AB3E /* SingletonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C8790AA11FF66146C815B7E2 /* SingletonSpec.m */; };
 		BE76B95318498473001E749D /* NSDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */; };
 		BE76B95518498524001E749D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE76B95418498524001E749D /* Default-568h@2x.png */; };
 		BE9C30DC188F3B2900F6B874 /* BeyondSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C30DB188F3B2900F6B874 /* BeyondSegueViewController.m */; };
@@ -30,6 +30,8 @@
 		BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */; };
 		BEC4BFDB183F4D18004555B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC4BFAA183F45B4004555B2 /* UIKit.framework */; };
 		BEE0E11118AF1E660082DFBE /* DateOfNextWeekdaySpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */; };
+		C87901FE66C31A0E48F3DA3C /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = C8790B5332FF578EFBE11B98 /* Singleton.m */; };
+		C8790C6D208CAFA33E3DD875 /* OtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C879089612644B95423641B1 /* OtherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,6 @@
 		AAE99E40BD6D46AB873A5FD2 /* libPods-QiitaTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiitaTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4194554D7C42DDABB891E1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateIgnoreTest.m; sourceTree = "<group>"; };
-		BE76B94E1849816E001E749D /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		BE76B95418498524001E749D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BE9C30DA188F3B2900F6B874 /* BeyondSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeyondSegueViewController.h; sourceTree = "<group>"; };
 		BE9C30DB188F3B2900F6B874 /* BeyondSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeyondSegueViewController.m; sourceTree = "<group>"; };
@@ -76,7 +77,12 @@
 		BEC4BFDC183F4D1D004555B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterTest.m; sourceTree = "<group>"; };
 		BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateOfNextWeekdaySpecs.m; sourceTree = "<group>"; };
+		C879089612644B95423641B1 /* OtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherClass.m; sourceTree = "<group>"; };
 		C879098AF96A66CC497B891F /* DateByAdding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateByAdding.m; sourceTree = "<group>"; };
+		C8790A8100DCFA7D293E3AEE /* OtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherClass.h; sourceTree = "<group>"; };
+		C8790AA11FF66146C815B7E2 /* SingletonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonSpec.m; sourceTree = "<group>"; };
+		C8790B5332FF578EFBE11B98 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		C8790D7D6E0ED91555CB1253 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,10 @@
 				BE9C30DB188F3B2900F6B874 /* BeyondSegueViewController.m */,
 				BE9C30DD188F3CA600F6B874 /* MainEntry.h */,
 				BE9C30DE188F3CA600F6B874 /* MainEntry.m */,
+				C8790B5332FF578EFBE11B98 /* Singleton.m */,
+				C8790D7D6E0ED91555CB1253 /* Singleton.h */,
+				C879089612644B95423641B1 /* OtherClass.m */,
+				C8790A8100DCFA7D293E3AEE /* OtherClass.h */,
 			);
 			path = QiitaTest;
 			sourceTree = "<group>";
@@ -175,10 +185,10 @@
 				BEC4BFD1183F45B4004555B2 /* QiitaTestTests.m */,
 				BEC4BFDE18405FDD004555B2 /* NSDateFormatterTest.m */,
 				BEC4BFCC183F45B4004555B2 /* Supporting Files */,
-				BE76B94E1849816E001E749D /* test.m */,
 				BE33A9AE185EBD3A0002738A /* DateIgnoreTest.m */,
 				C879098AF96A66CC497B891F /* DateByAdding.m */,
 				BEE0E11018AF1E660082DFBE /* DateOfNextWeekdaySpecs.m */,
+				C8790AA11FF66146C815B7E2 /* SingletonSpec.m */,
 			);
 			path = QiitaTestTests;
 			sourceTree = "<group>";
@@ -362,6 +372,8 @@
 				BEC4BFB3183F45B4004555B2 /* main.m in Sources */,
 				BE9C30DC188F3B2900F6B874 /* BeyondSegueViewController.m in Sources */,
 				BE9C30DF188F3CA600F6B874 /* MainEntry.m in Sources */,
+				C87901FE66C31A0E48F3DA3C /* Singleton.m in Sources */,
+				C8790C6D208CAFA33E3DD875 /* OtherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +384,8 @@
 				BEC4BFD2183F45B4004555B2 /* QiitaTestTests.m in Sources */,
 				BEE0E11118AF1E660082DFBE /* DateOfNextWeekdaySpecs.m in Sources */,
 				BEA425E8185FC66B0071F2C9 /* DateByAdding.m in Sources */,
+				BE3AB07818FD0DBC00D0AB3E /* SingletonSpec.m in Sources */,
 				BE33A9AF185EBD3A0002738A /* DateIgnoreTest.m in Sources */,
-				BE76B95218498442001E749D /* test.m in Sources */,
 				BE76B95318498473001E749D /* NSDateFormatterTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
